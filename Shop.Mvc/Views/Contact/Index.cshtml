@@ -1,0 +1,86 @@
+﻿
+@{
+    ViewData["Title"] = "Liên hệ";
+    Layout = "~/Views/Shared/Layout/_Layout.cshtml";
+    ViewBag.Title = "Liên hệ";
+}
+@await Component.InvokeAsync("Title")
+<div id="main-wrapper">
+    <div class="site-wrapper-reveal border-bottom">
+        <div class="contact-us-info-area mt-30 section-space--mb_60">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="single-contact-info-item">
+                            <div class="icon">
+                                <i class="icon-clock3"></i>
+                            </div>
+                            <div class="iconbox-desc">
+                                <h6 class="mb-10">Mở cửa</h6>
+                                <p>Mon – Fri : 8:30 – 18:00 <br>Sat – Sun : 9:00 – 17:00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="single-contact-info-item">
+                            <div class="icon">
+                                <i class="icon-telephone"></i>
+                            </div>
+                            <div class="iconbox-desc">
+                                <h6 class="mb-10">Số điện thoại</h6>
+                                <p>092039423 <br>0862883238</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="single-contact-info-item">
+                            <div class="icon">
+                                <i class="icon-envelope-open"></i>
+                            </div>
+                            <div class="iconbox-desc">
+                                <h6 class="mb-10">Địa chỉ Email</h6>
+                                <p>office@sky.com <br>Info@sky.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="single-contact-info-item">
+                            <div class="icon">
+                                <i class="icon-map-marker"></i>
+                            </div>
+                            <div class="iconbox-desc">
+                                <h6 class="mb-10">Địa chỉ</h6>
+                                <p>280 An Dương Vuong <br>Quận 5, TPHCM.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact-us-page-warpper section-space--pb_120">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="border-top">
+                            <div class="row">
+                                <div class="ms-auto">
+                                    <div class="conatact-info-text section-space--mt_60">
+                                        <h5 class="mb-10">Địa chỉ của shop </h5>
+                                        <p class="mt-30">280 An Dương Vuong<br>092039423<br>office@sky.com</p>
+                                      
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    @await Component.InvokeAsync("Footer")
+</div>
+
+
+
+
+
