@@ -1,4 +1,4 @@
 # Technology description
 
-FE: HTML, CSS, JS
+FE: HTML, CSS, JS.
 BE: Asp.Net Core MVC, Entity Framework Core, Asp.Net Core Identity, Mapper, Three-layer, SOLID, Send Mail, Gmail Api.
